@@ -1,0 +1,152 @@
+*{
+/*   border: solid 1px black; */
+  font-family: 微軟正黑體;
+}
+body{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 213, 233, 0.8);
+  color: rgba(255, 110, 151, 1);
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.resume{
+  display: flex;
+  max-width: 750px;
+  border: solid 6px #ff6e97;
+  position: relative;
+}
+.left, .right{
+  padding: 15px;
+}
+.left{
+  flex: 5;
+}
+.right{
+  flex: 5;
+  padding-top: 150px;
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+}
+li{
+  text-align: justify;
+}
+a{
+  color: rgba(255, 110, 151, 1);
+
+  
+}
+h2{
+  margin: 0px;
+  margin-bottom: 25px;
+}
+h2::after{
+  content:"";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #ff7575;
+  margin-left: 10px;
+}
+
+h4{
+  margin: 0px;
+  margin-top: 40px;
+}
+p{
+  text-align: justify;
+}
+.year li{
+  margin-left: 20px;
+  border-left: solid 4px #ff7575;
+  padding-left: 10px;
+}
+hr{
+  background-color: #ff7575;
+  border: 0px;
+  height: 5px;
+  width: 50%;
+  display: relative;
+  margin-left: 0px;
+  }
+.decoration{
+  width: 300px;
+  height: 140px;
+  background: linear-gradient(135deg,	#ff7575,#F9D2E0);
+  border-radius: 70px 0px 0px 70px;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  }
+.circle{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255,213,233,1);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.circle::after{
+  content:"";  
+  display: block; 
+  background-color: rgba(255,213,233,0.8);
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);  
+}
+.p90, .p180, .p270, .p360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #ff7575;
+}
+.p180{
+  left: 50%;
+  top: 50%;
+}
+.p270{
+  left: 0;
+  top: 50%;
+}
+.p360{
+  left: 0;
+  top: 0;
+}
+.test{
+  display: inline-block;
+}
+.listLicense .bar{
+   width: 70%;
+  height: 10px;
+  border: solid 2px #ff7575;
+  border-radius: 5px;
+  }
+.value{
+  height: 100%;
+  width: 60%;
+  background-color: #ff7575;
+}
+.value.p70{
+  width: 86%;
+}
+.value.p80{
+  width: 90%;
+}
+.value.p91{
+  width: 80%;
+}
+.value.p100{
+  width: 92%;
+}
